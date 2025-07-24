@@ -1,0 +1,103 @@
+body {
+  background-color: #545454;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 40px 10px;
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+  padding: 30px;
+  background-color: #808080;
+  border: 2px solid #f2f2f2;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  color: orange;
+  font-family: Arial, sans-serif;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: white;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+#materialInput {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: orange;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: darkorange;
+}
+
+#dropdownWrapper {
+  position: relative;
+}
+
+#materialList {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  max-height: 150px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 6px 6px;
+  z-index: 10;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+}
+
+#materialList li {
+  padding: 8px 12px;
+  cursor: pointer;
+  color: black;
+}
+
+#materialList li:hover {
+  background-color: #f0f0f0;
+}
+
+#status {
+  text-align: center;
+  margin-top: 15px;
+  color: white;
+  font-size: 14px;
+}
