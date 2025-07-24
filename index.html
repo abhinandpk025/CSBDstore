@@ -1,0 +1,25 @@
+<form id="myForm">
+  <h2>MR Form - CSBD</h2>
+
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" required />
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" required />
+  </div>
+
+  <div class="form-group">
+    <label for="materialInput">Select Material</label>
+    <div id="dropdownWrapper">
+      <input type="text" id="materialInput" placeholder="Search Material..." autocomplete="off" required />
+      <ul id="materialList"></ul>
+    </div>
+    <input type="hidden" name="material" id="selectedMaterial" required />
+  </div>
+
+  <button type="submit">Submit</button>
+  <p id="status"></p>
+</form>
